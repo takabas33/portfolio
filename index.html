@@ -1,90 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
+	<meta charset="utf-8">
+	<meta name="description" content="大西尊仁のポートフォリオ">
+	<meta name="keywords" content="大西尊仁, ポートフォィオ, WEBデザイン, WEBデザイナー">
+	<title>ONISHI TAKAHITO PORTFOLIO SITE</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- WEBフォント設定 -------------------->
+	<link rel="stylesheet" href="http://maxcdn.bootstracdn.com/font-awesome"/4.7.0/css/font-awesome/ </head> <body>
+
+	<div class="wrapper">
+
+		<!-- ヘッダー部分 -------------------->
+		<header id="header">
+			<!--ロゴタイトル-->
+			<a class="logo" href="index.html">OHNISHI TAKAHITO PORTFOLIO</a>
+			<!-- ナビゲーション -->
+			<nav class="navigation">
+				<ul>
+					<li><a href="#mainvisual">HOME</a></li>
+					<li><a href="#profil">PROFIL</a></li>
+					<li><a href="#portfolio">PORTFOLIO</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<!-- メインビジュアル -------------------->
+		<section id="mainvisual" class="section">
+			<div class="mainvisual">
+				<img src="images/mainvisual005.jpg" alt="イラスト">
+			</div>
+		</section>
+
+		<!-- プロフィール-->
+		<section id="profil" class="section profil">
+
+			<!-- 左カラム -->
+			<div class="profil_content_left">
+				<h4>大西尊仁</h4>
+				<p>1996年5月30日生・北海道出身</p>
+				<p>takabas33@gmail.com</p>
+				<p>HAL東京　IT学部　WEB学科</p>
+			</div>
+
+			<!-- 右カラム -->
+			<div class="profil_content_right">
+				<h5>使用言語歴</h5>
+				<ul>
+					<li><span class="year">1996</span>
+						<div class="text"><a href="http://www">出身地　北海道札幌市</a></div>
+					</li>
+					<li><span class="year">2015</span>
+						<div class="text"><a href="http://www">北海道大麻高等学校　卒業</a></div>
+					</li>
+					</li>
+					<li><span class="year">2017</span>
+						<div class="text"><a href="http://www">HAL東京　IT学部　WEB学科入学</a></div>
+					</li>
+
+
+				</ul>
+			</div>
+
+		</section>
+
+		<!-- Jon>
+
+<!-- 作品エリア -------------------->
+		<section id="portfolio" class="section portfolio">
+			<div class="portfolio_item">
+				<a href="ex02-03-1/index.html" class="portfolio_link">
+					<div class="caption">
+						<div class="caption_content">
+							<h3>作品No.001<br>Beverly Design HP</h3>
+							<h4>Branding/Web design</h4>
+						</div>
+					</div>
+					<img src="images/javascript.png" alt="Santa Monica Beach California">
+				</a>
+			</div>
+
+			<div class="portfolio_item">
+				<a href="work001.html" class="portfolio_link">
+					<div class="caption">
+						<div class="caption_content">
+							<h3>作品No.001<br>KOIDEL</h3>
+							<h4>Branding/Web design</h4>
+						</div>
+					</div>
+					<img src="images/work008.jpg" alt="Santa Monica Beach California">
+				</a>
+			</div>
+
+			<div class="portfolio_item">
+				<a href="05/index.html" class="portfolio_link">
+					<div class="caption">
+						<div class="caption_content">
+							<h3>作品No.003<br>cafe de paris</h3>
+							<h4>Branding/Web design</h4>
+						</div>
+					</div>
+					<img src="images/work010.jpg" alt="Santa Monica Beach California">
+				</a>
+			</div>
+
+			<div class="portfolio_item">
+				<a href="work002.html" class="portfolio_link">
+					<div class="caption">
+						<div class="caption_content">
+							<h3>作品No.004<br>cafe de paris</h3>
+							<h4>Branding/Web design</h4>
+						</div>
+					</div>
+					<img src="images/work009.jpg" alt="Santa Monica Beach California">
+				</a>
+			</div>
+
+
+
+			<!-- フッターエリア -->
+			<footer id="contact" class="footer">
+				<h4><a href="#">大西尊仁</a></h4>
+				<p>email <a href="takabas33@gmail.com" alt="メールアドレス">takabas33@gmail.com</a></p>
+				<ul class="footer_share">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+				<p><small>&copy; 2018 takahito ohnishi</small></p>
+			</footer>
+
+	</div><!-- /.wrapper -->
+
+	<!-- JavaScript -->
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$(function () {
+
+			//#で始まるアンカーをクリックした場合に処理
+			$('a[href^=#]').click(function () {
+				//スクロールの速度
+				var speed = 1000; //ミリ秒
+				//アンカーの値の取得
+				var href = $(this).attr("href");
+				//移動さきを取得
+				var target = $(href == "#" || href == "" ? 'html' : href);
+				//移動さきを数値で取得
+				var position = target.offset().top;
+				//スムーススクロール
+				$('body,html').animate({
+					scrollTop: position
+				}, speed, 'swing');
+				return false;
+			});
+		});
+	</script>
+
+
+	</body>
+
 </html>
