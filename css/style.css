@@ -42,6 +42,9 @@ ul li {
   width: 1040px;
   margin: 0 auto;;
 }
+ruby{
+  font-size: 0.7em;
+}
 /* ----------------------------------------------------------
 ヘッダー & ナビゲーション
 -----------------------------------------------------------*/
@@ -100,7 +103,7 @@ ul li {
 	justify-content: space-around;
 }
 .profil h4{
-	margin-top: 0;
+	margin-top: 10px;
 	font-size: 32px;
 	letter-spacing: 2px;
 	font-weight: 300;
@@ -120,14 +123,15 @@ ul li {
 }
 .profil_content_right{
 	width: 60%;
-	margin: 0 100px 0 50px;
+	margin: 0 50px 0 100px;
 }
 /* プロフィール
 詳細設定 */
 .profil_content_right ul{
 	margin: 0;
 	padding: 0;
-	list-style: none;
+  list-style: none;
+  margin-bottom: 36px;
 }
 .profil_content_right li{
 	padding: 10px 0px;
@@ -284,8 +288,8 @@ ul li {
 }
 .detail_content h5 {
   margin-bottom: -7%;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
 }
 .detail_content p {
   margin-top: 7%;
@@ -309,4 +313,17 @@ ul li {
 .btn:hover, .btn:focus {
   background-color: #000;
   color: #fff;
+}
+
+.profil_content_left span{
+  font-size: 0.4em;
+}
+.fictitious{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.profil h5{
+  margin-bottom: 10px;
+  font-weight: 500;
 }
